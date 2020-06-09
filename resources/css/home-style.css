@@ -1,0 +1,526 @@
+.bg {
+    background: url("../astro_image/bg-main.jpeg");
+    height: 400px;
+    width: 100%;
+    position: relative;
+
+}
+
+
+
+.cloud {
+    top: 40%;
+    background-image: url("../astro_image/cloud-bg.jpeg");
+    height: 250px;
+    width: 100%;
+    position: absolute;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    position: absolute;
+    background: linear-gradient(white, #ddd);
+    margin: 10px 0;
+    width: 100%;
+    line-height: 30px;
+
+
+}
+
+.header nav ul li {
+    list-style-type: none;
+    text-align: center;
+
+
+}
+
+.header nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    line-height: 30px;
+    height: 30px;
+
+
+}
+
+.active,
+.header nav li a:hover {
+    background: #f1f1f1;
+    border-top: 2px solid DodgerBlue;
+
+}
+
+.header nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 12px;
+    margin-right: 200px;
+}
+
+.search-box input {
+    background-image: url("../astro_image/search-icon.png");
+    background-repeat: no-repeat;
+    background-position: 90px;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 12px 0 0 70px
+}
+
+.top {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.top li {
+    float: left;
+    margin: 10px;
+    list-style-type: none;
+    color: white;
+}
+
+.top select {
+    width: 60px;
+
+}
+
+.text {
+    position: absolute;
+    width: 300px;
+    top: 30%;
+    left: 22%;
+    color: white;
+    text-transform: capitalize;
+}
+
+.text p {
+    font-size: 12px;
+
+}
+
+.text span {
+    font-weight: 100;
+}
+
+.text img {
+    width: 15px;
+    height: 15px;
+
+}
+
+.text-correct-mark {
+    margin-top: 20px;
+
+}
+
+.text-correct-mark img {
+    float: left;
+}
+
+.text-correct-mark p {
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 12px;
+
+}
+
+#upper {
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 17px
+}
+
+.text2 {
+    width: 600px;
+    text-align: center;
+    left: 50%;
+    margin: auto;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.description {
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.des-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.domain {
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.domain input,
+select {
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+.domain button {
+    background-color: rgb(0, 200, 250);
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.domain-input {
+    border: 2px solid gray;
+    width: 400px;
+    left: 50%;
+    border-radius: 10px;
+
+    background: linear-gradient(white, #ddd);
+    margin: auto;
+}
+
+.card-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 100px;
+    justify-content: center
+}
+
+.circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgb(0, 128, 198);
+    left: 30%;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    margin-top: -40px;
+    border: 10px solid white;
+    text-transform: capitalize;
+    color: white
+}
+
+
+
+.card {
+    position: relative;
+    background: rgb(0, 128, 198);
+    width: 220px;
+    height: 160px;
+    margin: 10px 10px 0 10px;
+    background-image: url("../astro_image/map-img-price.png");
+    background-repeat: no-repeat;
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 40px;
+
+}
+
+.card-down {
+    width: 220px;
+    height: 160px;
+
+    margin: 0 10px;
+    border: 1px solid gray;
+    position: relative;
+    text-align: center;
+    border-top: none;
+    text-transform: capitalize;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.card-down ul {
+    display: flex;
+
+    margin: auto;
+    justify-content: center;
+    padding:
+}
+
+#st {
+    padding-top: 50px
+}
+
+.card-down img {
+    float: left;
+    left: 15%;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+
+
+}
+
+.card-down button {
+    background: rgb(0, 128, 198);
+    padding: 5px 20px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.card .cloud1 {
+
+    position: absolute;
+    height: 30px;
+    top: 85%;
+    left: 0px;
+    margin: auto;
+    width: 100%;
+
+
+
+}
+
+.card .server1 {
+    position: relative;
+    top: 45%;
+    left: 30%;
+    height: 80px;
+}
+
+.custom {
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.custom button {
+    background: rgb(0, 128, 198);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    color: white;
+}
+
+.custom h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.footer-container {
+    background-image: url("../astro_image/footer%5B.png");
+    height: 420px;
+    position: relative;
+    border-top: 2px solid gray;
+    position: relative;
+    text-transform: capitalize;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+
+
+
+}
+
+.footer-container .cloud-f {
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+
+
+}
+
+.f-menu {
+    width: 300px;
+    margin-top: 50px;
+    color: white;
+
+
+}
+
+.f-menu ul li {
+
+    list-style-type: disc;
+}
+
+.f-menu li a {
+    text-decoration: none;
+    color: white
+}
+
+.f-menu button {
+    margin-left: 150px;
+    border: none;
+    background: none;
+    color: white;
+
+
+
+}
+
+#social {
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.f-menu h2 {
+    margin-left: -30px;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+.social-image {
+    margin-top: -150px;
+}
+
+.f-menu p,
+a {
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    font-size: 25px;
+    border: 2px solid gold;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+
+}
+
+@media screen and (max-width:770px) {
+    .menu-toggle {
+        display: block;
+        margin-left: 10px;
+        margin: 5px;
+        z-index: 1;
+    }
+
+    .toggle-bg {
+        background: gray;
+
+
+    }
+
+    .text2 {
+        width: 300px;
+        text-align: center;
+        left: 50%;
+        margin: auto;
+        margin-top: 50px;
+        text-transform: capitalize;
+    }
+
+    .domain-input {
+        border: 2px solid gray;
+        width: 300px;
+        left: 50%;
+        border-radius: 10px;
+
+        background: linear-gradient(white, #ddd);
+        margin: auto;
+    }
+
+    .top,
+    .search-box input {
+        display: none;
+    }
+
+    .footer-container {
+        height: 800px;
+    }
+
+    .footer-container .cloud-f {
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .logo {
+
+        left: 50%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .header {
+
+        background: black;
+        opacity: 0.9;
+        z-index: 1;
+        margin-top: 1px;
+
+
+    }
+
+    nav {
+        display: none;
+        left: 50%;
+        position: relative;
+
+
+    }
+
+    .header nav ul {
+        display: table;
+        position: relative;
+        z-index: 1;
+
+    }
+
+    .header nav li a {
+        color: white;
+    }
+
+    .active,
+    .header nav li a:hover {
+        background: green;
+    }
+}
